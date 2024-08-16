@@ -1,0 +1,56 @@
+.nav-item {
+  padding: 0.8rem 0.5rem;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  transition: 0.2s ease-in;
+  margin: auto;
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  transition: background-color .15s ease,color .15s ease;
+  white-space: nowrap;
+  .nav-icon {
+    color: #d1d5db;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 1rem;
+  }
+
+  .hide-sidebar {
+    .nav-label {
+      display: none;
+    }
+  }
+}
+
+.active {
+  color: #dbeafe;
+  background-color: #1e3a8a;
+}
+
+.nav-item-header-chevron {
+  color: #d1d5db;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: auto;
+  transition: all 0.25s;
+}
+
+.chevron-expanded {
+  transform: rotate(180deg);
+}
+
+.nav-menus {
+  display: list-item;
+  text-align: -webkit-match-parent;
+
+  :hover {
+    background-color: #1e3a8a;
+  }
+
+}
+
+.collapsed-sidebar {
+  padding-left: 1vw;
+}

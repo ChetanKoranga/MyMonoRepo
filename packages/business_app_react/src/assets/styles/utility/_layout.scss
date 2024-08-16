@@ -1,0 +1,11 @@
+@import '../themes/default.module';
+//
+// Layout
+// --------------------------------------------------
+// Specific to project -- ex. home page wrapper, contact wrapper, blog wrapper etc
+//
+html,
+body {
+  margin: 0;
+  background-color: defaultVariable('body-background-color');
+}

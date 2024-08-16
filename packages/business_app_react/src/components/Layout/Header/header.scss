@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .profile-section {
+    /* Styles for the profile section */
+  }
+  
+  .toggle-sidebar-btn {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }

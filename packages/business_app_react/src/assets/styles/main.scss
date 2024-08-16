@@ -1,0 +1,10 @@
+@import './themes/main';
+@import './components//main';
+@import './mixins/main';
+@import './extends/main';
+@import './override/main';
+@import './utility//main';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
