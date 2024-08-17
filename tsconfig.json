@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["packages/business_app_react/src/*"]
+    },
+    "target": "es6",
+    "module": "commonjs",
+    "strict": true,
+    "jsx": "react"
+  },
+  "include": ["packages/**/*"]
+}

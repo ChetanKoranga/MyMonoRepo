@@ -1,6 +1,5 @@
-import React from "react";
 // import { RenderRoutes } from "./renderRoutes";
-import { Login } from "@/pages/auth/login";
+// import { Login } from "@/pages/auth/login";
 import { createBrowserRouter, RouteObject } from "react-router-dom";
 // import { element } from "prop-types";
 import Layout from "@/components/Layout/Layout";
